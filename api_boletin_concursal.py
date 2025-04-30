@@ -25,4 +25,5 @@ headers = {
 respuesta_post = session.post(url_api, data=payload, headers=headers)
 
 datos = respuesta_post.json() # formato {tribunal,rolCasusa,tipoProcedimiento,deudorNombre,rut,entePublicador,nombrePublicacion,fechaPublicacion}
+
 # para hacer lo que quieras con los datos resultantes
